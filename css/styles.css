@@ -150,3 +150,126 @@ footer{
         font-size: 22px;
         line-height: 31px;
     }
+
+@media screen and (max-width:1366px) {
+    body{
+        margin-top: 2%;
+    }
+    .main{
+        margin-top: 7%;
+    }
+    .texts{
+        padding: 5% 15% 5% 0;
+    }
+    .texts h1{
+        font-size: 44px;
+    }
+    .texts p{
+        font-size: 20px;
+    }
+    .read-more h6{
+        font-size: 14px;
+    }
+    .wallpaper{
+        width: 50%;
+    }
+    .profile{
+        padding: 2% 12% 2% 3% ;
+        transform: translate(90%,-60%);
+    }
+    .profile-head{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .profile-head img{
+        width: 15%;
+        height: 15%;
+    }
+    .profile p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width:1090px){
+    .texts h1{
+        font-size: 36px;
+    }
+    .texts p{
+        font-size: 16px;
+    }
+    .read-more h6{
+        font-size: 10px;
+    }
+    .profile-head{
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .profile p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:880px){
+    nav li{
+        font-size: 12px;
+    }
+    body{
+        margin: 5% 8%;
+    }
+    .main{
+        flex-direction: column;
+        margin: 10% 0;
+    }
+    .texts h1{
+        font-size: 46px;
+    }
+    .texts p{
+        margin: 8% 0 3%;
+        font-size: 18px;
+    }
+    .wallpaper{
+        width: 100%;
+    }
+    .profile-head{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .profile p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .texts p{
+        margin:10% 0;
+    }
+    .profile{
+        width: 70%;
+        transform: translate(8%, -20%);
+    }
+}
+
+@media screen and (max-width:480px) {
+    body{
+        margin: 6% 4%;
+    }
+    nav h1{
+        font-size: 12px;
+    }
+    .texts h1{
+        font-size: 36px;
+    }
+    .texts p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .profile{
+        width: 70%;
+        transform: translate(8%, -45%);
+    }
+    .profile p{
+        width: 80%;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
