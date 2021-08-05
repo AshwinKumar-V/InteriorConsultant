@@ -31,7 +31,6 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
     nav h1{
         border:0.5px solid white;
@@ -46,7 +45,7 @@ nav{
     nav ul{
         width:42%;
         list-style: none;
-        display: flex;
+        display: none;
         justify-content: space-between;
     }
 
@@ -62,10 +61,58 @@ nav{
         border-bottom: 1px solid white;
     }
 
-    #menu{
+    .menu{
+        display: none;
         position: absolute;
-        right: 0;
+        right: 6%;
+        flex-direction: column;
     }
+
+    .menu #menu-icon{
+        display:block;
+    }
+    .menu #close-icon{
+        display: none;
+    }
+
+    .menu-drop{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        right: 0;
+        padding: 5%;
+        text-align: center;
+        background-color: #181719;
+        z-index: 2;
+    }
+
+        .menu-drop #menu-icon{
+            display:none;
+        }
+        .menu-drop #close-icon{
+            display: block;
+            width: 5%;
+            align-self: flex-end;
+        }
+
+        .menu-drop ul{
+            display: block !important;
+            align-self: center;
+            padding: 0;
+            margin-top: 50%;
+            width: fit-content;
+        }
+
+        .menu-drop li{
+            font-size: 22px;
+            line-height: 60px;
+            font-weight: 300;
+        }
+
+        nav li:nth-child(1){
+            font-weight: 600;
+        }
 
 footer{
     padding: 2% 4%;
