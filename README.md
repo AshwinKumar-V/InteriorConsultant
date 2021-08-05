@@ -37,7 +37,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/AshwinKumar-V/InteriorConsultant/main/.github/images/Screenshot.jpg)
 
-Hey there devs! This was my third project at devChallenges.io to build a responsive website. This project required JavaScript for some additional functionalities. Yet I managed to enforce it more using CSS rather than JavaScript. Looking forward to learn more using JavaScript in the upcoming projects.
+Hey there devs! This was my third project at devChallenges.io to build a responsive website. This project required JavaScript for some additional functionalities such as collapsed navigation in mobile view and to bring up the navigation upon clicking the menu icon. I managed to enforce it more using CSS rather than JavaScript.
 You can checkout my demo [here](https://ashwinkumar-v.github.io/InteriorConsultant/).
 
 ### Built With
